@@ -1,0 +1,61 @@
+ /* laptop device max-width(1440px) */
+ @media  screen and (max-width:1200px) {
+    iframe{
+        height: 500px;
+    }
+    
+ }
+
+ /* tablet device max-width (1024px) */
+ @media screen and (max-width:1024px) {
+    .blog-content{
+        flex-direction: column-reverse;
+    }
+    iframe{
+        height: 350px;
+    }
+    .inspiration-content{
+        padding: 10px;
+        width: 87.5%;
+    }
+    .target-card{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .card-1{
+        width: 100%;
+        align-items: center;
+    }
+    #footer-section{
+        flex-direction: column-reverse;
+        gap: 35px;
+    }
+    #footer-section .copyright p{
+        text-align: center;
+    }
+ }
+
+ /* mobile device max-width ( 640px) */
+ @media screen and (max-width:640px) {
+    #banner{
+        flex-direction: column;
+        /* justify-content: left; */
+        align-items: flex-start;
+        width: 92%;
+        padding-top: 10px;
+    }
+    .hero-content h2 {
+        font-size: 40px;
+    }
+     iframe{
+        height: 250px;
+    }
+    #footer-section{
+        padding: 32px 100px;
+    }
+    .content-right img{
+        width: 395px;
+        height: 353px;
+
+    }
+ }
