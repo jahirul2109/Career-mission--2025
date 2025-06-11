@@ -14,9 +14,11 @@
     iframe{
         height: 350px;
     }
+    #inspiration-section{
+        width: 76.5%;
+    }
     .inspiration-content{
         padding: 10px;
-        width: 87.5%;
     }
     .target-card{
         flex-direction: column;
@@ -39,16 +41,15 @@
  @media screen and (max-width:640px) {
     #banner{
         flex-direction: column;
-        /* justify-content: left; */
         align-items: flex-start;
-        width: 92%;
+        width: 92.5%;
         padding-top: 10px;
     }
     .hero-content h2 {
         font-size: 40px;
     }
      iframe{
-        height: 250px;
+        height: 280px;
     }
     #footer-section{
         padding: 32px 100px;

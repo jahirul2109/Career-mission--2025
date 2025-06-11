@@ -11,7 +11,7 @@ body{
 
     /* Banner section start  */
 #banner-container {
-    background-color: #ffffff85;
+    background-color: #ffffff86;
 }
 #banner{
     width: 87.5%;
@@ -135,9 +135,14 @@ body{
     line-height: 26px;
     font-family: "Azeret Mono", monospace;
 }
-.inspiration-content{
-    width: 76.3%;
+#inspiration-section{
+    width: 76.5%;
     margin: 0px auto 100px auto;
+    align-items: center;
+    text-align: center;
+
+}
+.inspiration-content{
     align-items: center;
     text-align: center;
     padding: 20px;
@@ -147,7 +152,7 @@ body{
 iframe{
     width: 100%;
     height: 556px;
-    border-radius: 20px;
+    border-radius: 16px;
 }
      /* inspiration content end  */
       
@@ -192,16 +197,20 @@ a:active{
      /* target section end  */
 
      /* footer section start  */
+
+#footer-container{
+    background-color:#ffffff86 ;
+}    
 #footer-section{
-    width: 100%;
+    width: 90%;
+    margin: 0px auto;
     padding: 32px 150px;
-    background-color: #ffffff86;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #footer-section .copyright p{
-   font-family: "Azeret mono",monospace;
+    font-family: "Azeret mono",monospace;
     margin: 0;
 
 }
